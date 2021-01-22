@@ -165,6 +165,7 @@ img {
 
 body{
         overflow-x: hidden;
+	overflow-y: hidden;
     }
 
 p {
@@ -485,6 +486,7 @@ p {
     
     body{
         overflow-x: hidden;
+	overflow-y: hidden;
     }
 }
 
@@ -619,6 +621,7 @@ p {
 @media (min-width: 48em) {
     body{
     overflow-x: hidden;
+    overflow-y: hidden;
 }
     
   .header li {
