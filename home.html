@@ -2,34 +2,13 @@
 <html>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 <body>
   
-<!--
-<nav class="nav">
-    <div class="container">
-        <div class="logo">
-            <a href="index.html" class="logo">EMILY FUNG</a>
-        </div>
-        <div class="main_list" id="mainListDiv">
-            <ul>
-                <li><a href="index.html" class="nav-links">ABOUT</a></li>
-                <li><a href="projects.html" class="nav-links">PROJECTS</a></li>
-                <li><a href="contact.html" class="nav-links">CONTACT</a></li>
-            </ul>
-        </div>
-        <div class="media_button">
-            <button class="main_media_button" id="mediaButton">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </div>
-</nav>
--->
-<!--<div class="container">-->
-
+<wrapper>
+    
 <header class="header">
   <a href="home.html" class="logo">EMILY FUNG</a>
   <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -37,25 +16,12 @@
   <ul class="menu">
     <li><a href="home.html">HOME</a></li>
     <li><a href="projects.html">PROJECTS</a></li>
-      <li><a href="contact.html">CONTACT</a></li>
+<!--      <li><a href="contact.html">CONTACT</a></li>-->
   </ul>
 <!--    class="me" backgroundimagehome-->
 </header>
 
 
-    
-<!--
-    <div id="container">
-    
-    <img  src="images/backgroundimagemecropped.png">
-     
-    <div id="overlay center">
-    <h1>Hello,<br>I'm Emily!</h1>
-    
-    <button>MY PROJECTS</button>
-    </div>
-    </div>
--->
     
     <container>
         <img src="images/backgroundimagemecropped.jpg" alt="me">
@@ -68,7 +34,7 @@
     
     <div id="about">
     
-    <img src="images/IMG_20210101_131606cropped.png" alt="Photo of grassy hills from the top">
+    <img class="aboutpic" src="images/IMG_20210101_131606cropped.png" alt="Photo of grassy hills from the top">
         <h2>A QUICK<br>INTRODUCTION</h2>
     <span>I am a recent graduate of Wellington University, with a bachelor in Design Innovation majoring in Media design. My passion and interests lie in graphic design and game design as well as physical computing. I want to learn and explore more in these fields and other areas of design. With technology upgrading so fast there are endless possibilities out there.
 
@@ -78,18 +44,11 @@ What comes next now is gaining experience and practical skills in the industry. 
 
 In my own time, I enjoy learning and taking photographs, baking, and listening to music to relax.</span>
         
-<!--
-        <ul>
-            <li><img class="arrow" src="images/arrow.png"</li>
-            <li><img class="arrow" src="images/arrow.png"</li>
-            <li><img class="arrow" src="images/arrow.png">EMAIL ME</li>
-        </ul>
--->
     </div>
     
 <img class="arrow1" src="images/arrow.png"><a class="social1" href="https://www.linkedin.com/in/emily-fung-61ab2585/">LINKEDIN</a>
 <img class="arrow2" src="images/arrow.png"><a class="social2" href="https://www.instagram.com/marithiaful/?hl=en">INSTAGRAM</a>
-<img class="arrow3" src="images/arrow.png"><a class="social3" href="">EMAIL ME</a>
+<img class="arrow3" src="images/arrow.png"><span class="social3">EMAIL ME<span class="extra">emzixv@gmail.com</span></span>
 
     
 <!--
@@ -115,5 +74,7 @@ navBarToggle.addEventListener("click", function() {
 </script>
 -->
 <!--   </div> -->
+    
+</wrapper>
 </body>
 </html>
