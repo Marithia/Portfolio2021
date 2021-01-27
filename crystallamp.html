@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+<body>
+
+<header class="header">
+  <a href="home.html" class="logo">EMILY FUNG</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="home.html">HOME</a></li>
+    <li><a href="projects.html">PROJECTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+</header>
+    
+<div class="backbutton">
+    <a href="projects.html" class="btg">BACK TO GALLERY</a>
+</div> 
+    
+<div class="slideshow-container">
+    
+    <div class="mySlides">
+    <img class="cl" src="images/Photo_3.jpg" alt="Vegetable Egg Fu Young">
+    </div>
+        
+    <div class="mySlides">
+    <img class="cl" src="images/Photo_2.jpg" alt="Battered fish fresh out of the fryer">
+    </div>
+        
+    <div class="mySlides">
+    <img class="cl" src="images/Photo_1.jpg" alt="Chips fresh out of the frying draining the excess oil">
+    </div>
+    
+    <div class="mySlides">
+    <video width="900px" controls="controls">
+        <source src="images/CrystalLamp.mp4" type="video/mp4">
+    </video>
+    </div>
+        
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+    </div>
+    
+<div class="project4desc">
+    
+    <span>Crystal Lamp is a data visualizer that tells you what time of the day. It was inspired by crystals with the purples, pinks, and blues. The elegant crystals look like a geode.<br></span>
+
+<span><br>The crystals are made from scented wax which when the lamp is lit up gradually leaves your room with a soft scent. How it works is that the first crystal lights up at 6am to signal the start of the day. At midday, the next one lights up with the morning crystal still lit. When it is 5pm the last of the crystals and some of the outer crystals light up. They turn off at midnight to leave you to sleep.<br></span>
+
+<span><br>The design of Crystal Lamp and its form creates a warm glow that lights up your room gradually throughout the day. The wax crystals diffuse the lights making it easier for you to wind down at the end of the day. The goal of this project is to make an object that is aesthetically pleasing and functional. Let the gentle touch of the crystal lamp help you drift off to sleep, ready for a fresh start to a new day.</span>
+    
+</div>
+    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}    
+</script>
+    
+</body>
+</html>

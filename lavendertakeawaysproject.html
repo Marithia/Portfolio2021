@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+<body>
+
+<header class="header">
+  <a href="home.html" class="logo">EMILY FUNG</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="home.html">HOME</a></li>
+    <li><a href="projects.html">PROJECTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+</header>
+    
+<div class="backbutton">
+    <a href="projects.html" class="btg">BACK TO GALLERY</a>
+</div>     
+    
+<div class="slideshow-container">
+    
+    <div class="mySlides">
+    <img class="lt" src="images/lt1.PNG" alt="Vegetable Egg Fu Young">
+    </div>
+        
+    <div class="mySlides">
+    <img class="lt" src="images/ltabout.PNG" alt="Battered fish fresh out of the fryer">
+    </div>
+        
+    <div class="mySlides">
+    <img class="lt" src="images/ltmenu.PNG" alt="Chips fresh out of the frying draining the excess oil">
+    </div>
+        
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+    </div>
+    
+<div class="project1desc">
+    
+    <span>Website for Lavender Takeaways. See the full website here <a href="https://lavendertakeaways.netlify.app/">Lavender Takeaways</a></span>
+    
+</div>
+    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}    
+</script>
+    
+</body>
+</html>

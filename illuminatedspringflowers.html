@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+<body>
+
+<header class="header">
+  <a href="home.html" class="logo">EMILY FUNG</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="home.html">HOME</a></li>
+    <li><a href="projects.html">PROJECTS</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+</header>
+    
+<div class="backbutton">
+    <a href="projects.html" class="btg">BACK TO GALLERY</a>
+</div>     
+    
+<div class="slideshow-container">
+    
+    <div class="mySlides">
+    <img class="isf" src="images/IMG_4569.jpg" alt="Vegetable Egg Fu Young">
+    </div>
+        
+    <div class="mySlides">
+    <img class="isf" src="images/IMG_4564.jpg" alt="Battered fish fresh out of the fryer">
+    </div>
+        
+    <div class="mySlides">
+    <img class="isf" src="images/IMG_4766.jpg" alt="Chips fresh out of the frying draining the excess oil">
+    </div>
+    
+    <div class="mySlides">
+    <video width="900px" controls="controls">
+        <source src="images/Illuminated_Spring_Flowers_Redo_1.mp4" type="video/mp4">
+    </video>
+    </div>
+        
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+    </div>
+    
+<div class="project2desc">
+    
+    <span>Illuminated Spring Flowers is a wearable technology hair ornament that enhances the look of spring. Inspired by the Chinese spring festival which celebrates the arrival of spring. The sequence of lights gives the hair accessory a lively and unique spring vibe.<br></span>
+
+<span><br>The elegant design can be dressed up or down. With an on off switch below the clasp it makes it easy to use. It is versatile so it can be worn with the hair up or down. The organic shape of the budding flower branches gives the ornament texture along with the curve of the arrangement of flowers. The colors scheme symbolizes the colors of spring. The end of winter being the white fan, the white and orange glow behind the flowers shows the first light of spring, and the pink enhances the beauty of the budding and new flowers of the spring. Together this is my Illuminated Spring Flowers.</span>
+    
+</div>
+    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}    
+</script>
+    
+</body>
+</html>
