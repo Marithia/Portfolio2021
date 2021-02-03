@@ -264,11 +264,11 @@ body{
 /*    font-family: 'Roboto Slab', Rockwell, Serif;*/
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-    line-height: 4.2vw;
+    line-height: 4.4vw;
     position: absolute;
   display: block;
   width: 20%;
-  margin-top: -26.5%;
+  margin-top: -27%;
   margin-left: 63.7%;
   max-width: 350px;
     color: white;
@@ -280,7 +280,7 @@ body{
     padding-left: -20px;
     padding-right: -20px;
 */
-    font-size: 2.1vw;
+    font-size: 2.2vw;
 /*    font-size-adjust: none;*/
 /*    text-size-adjust: none;*/
     outline: none; 
@@ -304,8 +304,8 @@ h2 {
 /*  font-family: 'Roboto Slab', Rockwell, Serif;*/
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  color: #000;
-  text-shadow: 0 .125em .125em rgba(0, 0, 0, .5);
+  color: #CB7244;
+/*  text-shadow: 0 .125em .125em rgba(0, 0, 0, .5);*/
   padding: .6em 1em .6em 1.7em;
   
 }
@@ -424,12 +424,13 @@ h2 {
 /*    font-family: 'Roboto Slab', Rockwell, Serif;*/
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    color: #8dc1fd;
+    color: #CB7244;
     font-size: 1.5vw;
 }
 
 .extra { 
     display: none;
+    color: #CB7244;
 }
 
 .backbutton {
@@ -667,23 +668,31 @@ h2 {
     margin-left: 160px;
 }
 */
+
+    
+    #about {
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+    }    
+
   .sociallinks {
-    margin-top: -30px;
+    margin-top: -25px;
 }
     
   h2 {
   position: absolute;
   display: block;
-  width: 40%;
-  margin-top: -66%;
-  margin-left: 52%;
+  width: 60%;
+  margin-top: -71%;
+  margin-left: 39%;
 /*  max-width: 500px;*/
   font-size: 3.5vw;
 /*  font-family: 'Roboto Slab', Rockwell, Serif;*/
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  color: #000;
-  text-shadow: 0 .125em .125em rgba(0, 0, 0, .5);
+  color: #CB7244;
+  text-shadow: 0 .125em .125em rgba(154, 78, 38, 0.5);
   padding: .6em 1em .6em 1.7em;
   
 }
@@ -691,10 +700,11 @@ h2 {
     #about span {
   position: absolute;
   display: block;
-  width: 75%;
-  margin-top: -48%;
-  margin-left: 12%;
-  font-size: 1.6vw;
+  width: 97%;
+  margin-top: -60.5%;
+/*  margin-top: -48%;*/
+  margin-left: 2%;
+  font-size: 2.35vw;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #8dc1fd;
@@ -867,7 +877,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #8dc1fd;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 .social2 {
@@ -882,7 +892,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #8dc1fd;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 .social3 {
@@ -897,7 +907,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #8dc1fd;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     cursor: pointer;
 }
 
@@ -912,7 +922,7 @@ h2 {
 /*    font-family: 'Roboto Slab', Rockwell, Serif;*/
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    color: #8dc1fd;
+    color: #CB7244;
     font-size: 1.5vw;
 }
 
