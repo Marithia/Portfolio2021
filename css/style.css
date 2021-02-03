@@ -677,14 +677,14 @@ h2 {
     }    
 
   .sociallinks {
-    margin-top: -25px;
+    margin-top: -20px;
 }
     
   h2 {
   position: absolute;
   display: block;
   width: 60%;
-  margin-top: -71%;
+  margin-top: -73%;
   margin-left: 39%;
 /*  max-width: 500px;*/
   font-size: 3.5vw;
@@ -701,7 +701,7 @@ h2 {
   position: absolute;
   display: block;
   width: 97%;
-  margin-top: -61.5%;
+  margin-top: -64.5%;
 /*  margin-top: -48%;*/
   margin-left: 2%;
   font-size: 2.4vw;
