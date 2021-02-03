@@ -297,7 +297,7 @@ h2 {
   position: absolute;
   display: block;
   width: 40%;
-  margin-top: -55%;
+  margin-top: -66%;
   margin-left: 57%;
 /*  max-width: 500px;*/
   font-size: 3.5vw;
@@ -315,7 +315,7 @@ h2 {
   position: absolute;
   display: block;
   width: 55%;
-  margin-top: -40%;
+  margin-top: -47%;
   margin-left: 37.3%;
   font-size: 1.4vw;
   font-family: 'Lato', sans-serif;
@@ -337,7 +337,7 @@ h2 {
 */
 
 .sociallinks {
-    margin-top: 60px;
+    margin-top: -40px;
 }
 
 .arrow1 {
@@ -345,7 +345,7 @@ h2 {
     display: block;
     width: 3%;
     margin-top: -39%;
-    margin-left: 8%;
+    margin-left: 8.5%;
 /*    max-width: 200px;*/  
 }
 
@@ -354,7 +354,7 @@ h2 {
     display: block;
     width: 3%;
     margin-top: -29.5%;
-    margin-left: 8%;
+    margin-left: 8.5%;
 /*    max-width: 200px;*/  
 }
 
@@ -363,7 +363,7 @@ h2 {
     display: block;
     width: 3%;
     margin-top: -20.5%;
-    margin-left: 8%;
+    margin-left: 8.5%;
 /*    max-width: 200px;*/  
 }
 
@@ -373,7 +373,7 @@ h2 {
     width: 1%;
     max-width: 20px;
     margin-top: -38.5%;
-    margin-left: 13%;
+    margin-left: 13.5%;
     text-decoration: none;
 /*    font-family: 'Roboto Slab', Rockwell, Serif;*/
     font-family: 'Lato', sans-serif;
@@ -388,7 +388,7 @@ h2 {
     width: 1%;
     max-width: 20px;
     margin-top: -29%;
-    margin-left: 13%;
+    margin-left: 13.5%;
     text-decoration: none;
 /*    font-family: 'Roboto Slab', Rockwell, Serif;*/
     font-family: 'Lato', sans-serif;
@@ -403,7 +403,7 @@ h2 {
     width: 10%;
     max-width: 300px;
     margin-top: -20%;
-    margin-left: 13%;
+    margin-left: 13.5%;
     text-decoration: none;
 /*    font-family: 'Roboto Slab', Rockwell, Serif;*/
     font-family: 'Lato', sans-serif;
@@ -668,14 +668,14 @@ h2 {
 }
 */
   .sociallinks {
-    margin-top: -20px;
+    margin-top: -30px;
 }
     
   h2 {
   position: absolute;
   display: block;
   width: 40%;
-  margin-top: -56%;
+  margin-top: -66%;
   margin-left: 52%;
 /*  max-width: 500px;*/
   font-size: 3.5vw;
@@ -692,7 +692,7 @@ h2 {
   position: absolute;
   display: block;
   width: 75%;
-  margin-top: -41%;
+  margin-top: -48%;
   margin-left: 12%;
   font-size: 1.6vw;
   font-family: 'Lato', sans-serif;
