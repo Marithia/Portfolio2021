@@ -264,7 +264,7 @@ body{
 /*    font-family: 'Roboto Slab', Rockwell, Serif;*/
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-    line-height: 4.4vw;
+    line-height: 5vw;
     position: absolute;
   display: block;
   width: 20%;
@@ -275,7 +275,7 @@ body{
     border-radius: 50px;
     background: #D8794B;
     border: #CB7244;
-    box-shadow: 0.8px 0.8px 3px #CB7244;
+    box-shadow: 0.8px 0.8px 4px #CB7244;
 /*
     padding-left: -20px;
     padding-right: -20px;
@@ -634,7 +634,9 @@ h2 {
     width: 100%;
     height: 250%;
     filter: opacity(5%);
+    content: url("../images/IMG_20210101_131606mobile.jpg")
 }
+
     
 /*
     #about {
@@ -677,17 +679,17 @@ h2 {
     }    
 
   .sociallinks {
-    margin-top: -20px;
+    margin-top: -35px;
 }
     
   h2 {
   position: absolute;
   display: block;
   width: 60%;
-  margin-top: -73%;
-  margin-left: 39%;
+  margin-top: -160%;
+  margin-left: 35%;
 /*  max-width: 500px;*/
-  font-size: 3.5vw;
+  font-size: 4vw;
 /*  font-family: 'Roboto Slab', Rockwell, Serif;*/
   font-family: 'Lato', sans-serif;
   font-weight: bold;
@@ -701,10 +703,10 @@ h2 {
   position: absolute;
   display: block;
   width: 97%;
-  margin-top: -64.5%;
+  margin-top: -150%;
 /*  margin-top: -48%;*/
   margin-left: 2%;
-  font-size: 2.4vw;
+  font-size: 4vw;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #83b3eb;
@@ -852,7 +854,7 @@ h2 {
     display: block;
     width: 3%;
     margin-top: -0.5%;
-    margin-left: 43%;
+    margin-left: 40%;
 /*    max-width: 200px;*/  
 }
 
@@ -861,7 +863,7 @@ h2 {
     display: block;
     width: 3%;
     margin-top: -0.5%;
-    margin-left: 72%;
+    margin-left: 69%;
 /*    max-width: 200px;*/  
 }
 
@@ -877,7 +879,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #83b3eb;
-    font-size: 1.8vw;
+    font-size: 2.5vw;
 }
 
 .social2 {
@@ -886,28 +888,28 @@ h2 {
     width: 1%;
     max-width: 20px;
     margin-top: 0%;
-    margin-left: 49%;
+    margin-left: 46%;
     text-decoration: none;
 /*    font-family: 'Roboto Slab', Rockwell, Serif;*/
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #83b3eb;
-    font-size: 1.8vw;
+    font-size: 2.5vw;
 }
 
 .social3 {
     position: absolute;
     display: block;
-    width: 10%;
-    max-width: 300px;
+    width: 30%;
+    max-width: 50px;
     margin-top: 0%;
-    margin-left: 78%;
+    margin-left: 74%;
     text-decoration: none;
 /*    font-family: 'Roboto Slab', Rockwell, Serif;*/
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #83b3eb;
-    font-size: 1.8vw;
+    font-size: 2.5vw;
     cursor: pointer;
 }
 
@@ -923,7 +925,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #CB7244;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 
 .extra { 
